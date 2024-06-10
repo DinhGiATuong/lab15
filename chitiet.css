@@ -1,0 +1,214 @@
+.container{
+    width: 1200px; 
+    margin: auto; 
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.banner {
+    background-image: url('pngtree-clothing-store-where-people-can-buy-image_2502201.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    color: white;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product-item {
+
+    background: white;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.product-item:hover {
+    width: 200px;
+    box-shadow: 0px 0px 17px 2px gray;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #373737;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: gray
+}
+
+footer {
+    background-color: rgb(21, 20, 20);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+}
+.top-right {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    gap: 20px;
+    padding: 5px ;
+    display: flex;
+    background-color: gray;
+    border-radius: 10px;
+
+}
+.top-right ul{
+    list-style-type: none ;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+.top-right ul a{
+    color: white;
+    text-decoration: none;
+    
+}
+.top-right a:hover{
+    color: black;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.menu > li {
+    position: relative;
+    margin: 0 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.menu > li > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu > li:hover > a {
+    color: black;
+}
+
+.sub-menu {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+.sub-menu > li > a {
+    text-decoration: none;
+    display: block;
+    padding: 15px 30px ;
+    color: white;
+    background-color:gray;
+    border-radius: 10px;
+
+}
+
+.menu > li:hover .sub-menu {
+    display: block;
+}
+
+.three{
+    text-align: center;
+    padding: 20px;
+}
+
+.product-item a{
+    text-decoration: none;
+    color: rgb(94, 105, 126);
+
+}
+.product-item a:hover{
+    color: red;
+}
+.chitiet{
+    
+    width: 400px;
+    height: 200px;
+    background: white;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+}

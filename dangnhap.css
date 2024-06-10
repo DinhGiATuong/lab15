@@ -1,0 +1,79 @@
+body{
+    background: url(pngtree-clothing-store-where-people-can-buy-image_2502201.jpg);
+    background-size: cover ;
+}
+#box{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#from-login{
+    max-width: 400px;
+    background: rgba(0, 0, 0 ,0.8);
+    flex-grow:1;
+    padding: 30px 30px 40px;
+    box-shadow: 0px 0px 17px 2px rgba(230, 227, 227, 0.8) /*ngang , tren xuong, nhoe, do net*/
+}
+h1{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#from-DN{
+    border-bottom: 1px solid white;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+#from-DN::placeholder{
+    color: white;
+}
+.from-input{
+    background: transparent;/*trong suot*/
+    border: 0;
+    outline: 0;
+    color: white;
+    flex-grow: 1px;
+}
+
+.from-submit{
+    background: transparent;
+    color:  white;
+    border: 1px solid white;
+    width: 100%;
+    padding: 6px 10px;
+    margin-top: 20px;
+}
+
+.from-submit:hover{
+    border: 1px solid rgb(48, 37, 141);
+}
+
+.form-DK {
+    background: transparent;
+    color:  white;
+    border: 1px solid white;
+    width: 30%;
+    padding: 6px 10px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.form-DK:hover {
+    border: 1px solid rgb(48, 37, 141);
+}
+.form-QMK:hover{
+    border: 1px solid rgb(48, 37, 141); 
+}
+.form-QMK{
+    background: transparent;
+    color:  white;
+    border: 1px solid white;
+    width: 30%;
+    padding: 6px 10px;
+    margin-top: 20px;
+    margin-left: 50px;
+
+}
